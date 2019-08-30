@@ -20,9 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = #colorLiteral(red: 1, green: 0.5461099148, blue: 0.7343651652, alpha: 1)
         UINavigationBar.appearance().tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         
+        UITabBar.appearance().tintColor = .white
+        UITabBar.appearance().barTintColor = #colorLiteral(red: 0.9243425727, green: 0.6394632459, blue: 0.909599185, alpha: 1)
+       // UITabBar.appearance().selectionIndicatorImage = UIImage(named: "tabSelectBG")
+        
         let statusBarView = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 41))
         statusBarView.backgroundColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
-        self.window?.rootViewController?.view.insertSubview(statusBarView, at: 1)
+        self.window?.rootViewController?.view.insertSubview(statusBarView, at: 0)
         
         // изменить цвет заголовка
         if let barFont = UIFont(name: "AppleCDGothicNeo-Light", size: 24) {

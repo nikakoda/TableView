@@ -11,6 +11,9 @@
 		8408B2CB23168C680096B742 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408B2CA23168C680096B742 /* ContentViewController.swift */; };
 		8408B2CD23168C850096B742 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408B2CC23168C850096B742 /* PageViewController.swift */; };
 		841764A02317D32E0041FE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8417649F2317D32E0041FE72 /* Assets.xcassets */; };
+		8419F67D2318D5CD00FD8C90 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419F67C2318D5CD00FD8C90 /* AboutTableViewController.swift */; };
+		8419F67F2318DD3400FD8C90 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419F67E2318DD3400FD8C90 /* WebViewController.swift */; };
+		8419F6822318EAEC00FD8C90 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED1B9323112A8200615893 /* MapKit.framework */; };
 		84A4B0802312FF9500232A51 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B07F2312FF9500232A51 /* CoreDataStack.swift */; };
 		84A4B0832313015100232A51 /* TableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B0812313015100232A51 /* TableView.xcdatamodeld */; };
 		84AA569A230C1D4B00A4357F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA5699230C1D4B00A4357F /* AppDelegate.swift */; };
@@ -21,7 +24,6 @@
 		84AA56B0230D78BF00A4357F /* IceCreamDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA56AF230D78BF00A4357F /* IceCreamDetail.swift */; };
 		84ED1B8F23110FC200615893 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED1B8E23110FC200615893 /* RateViewController.swift */; };
 		84ED1B91231129DB00615893 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED1B90231129DB00615893 /* MapViewController.swift */; };
-		84ED1B9423112A8200615893 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED1B9323112A8200615893 /* MapKit.framework */; };
 		84F9543D230EA20300E55542 /* IceCreamDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9543C230EA20300E55542 /* IceCreamDetailCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,9 @@
 		8408B2CA23168C680096B742 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		8408B2CC23168C850096B742 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		8417649F2317D32E0041FE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/WebKit/WebKit/Assets.xcassets; sourceTree = "<group>"; };
+		8419F67C2318D5CD00FD8C90 /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		8419F67E2318DD3400FD8C90 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		8419F6802318E66C00FD8C90 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		84A4B07F2312FF9500232A51 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		84A4B0822313015100232A51 /* IceCreamModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IceCreamModel.xcdatamodel; sourceTree = "<group>"; };
 		84AA5696230C1D4B00A4357F /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84ED1B9423112A8200615893 /* MapKit.framework in Frameworks */,
+				8419F6822318EAEC00FD8C90 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +102,8 @@
 				84ED1B90231129DB00615893 /* MapViewController.swift */,
 				84059196231281210083405D /* NewIceCreamTableViewController.swift */,
 				8408B2CF23168CA80096B742 /* Page */,
+				8419F67C2318D5CD00FD8C90 /* AboutTableViewController.swift */,
+				8419F67E2318DD3400FD8C90 /* WebViewController.swift */,
 				84AA569D230C1D4B00A4357F /* Main.storyboard */,
 				84AA56A2230C1D4C00A4357F /* LaunchScreen.storyboard */,
 				84AA56A5230C1D4C00A4357F /* Info.plist */,
@@ -108,6 +115,7 @@
 		84ED1B9223112A8200615893 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8419F6802318E66C00FD8C90 /* WebKit.framework */,
 				84ED1B9323112A8200615893 /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -199,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AA56AC230C20EE00A4357F /* IceCream.swift in Sources */,
+				8419F67D2318D5CD00FD8C90 /* AboutTableViewController.swift in Sources */,
 				84AA569A230C1D4B00A4357F /* AppDelegate.swift in Sources */,
 				84AA56AE230C2ABA00A4357F /* IceCreamCell.swift in Sources */,
 				8408B2CD23168C850096B742 /* PageViewController.swift in Sources */,
@@ -208,6 +217,7 @@
 				84A4B0832313015100232A51 /* TableView.xcdatamodeld in Sources */,
 				84AA56B0230D78BF00A4357F /* IceCreamDetail.swift in Sources */,
 				8408B2CB23168C680096B742 /* ContentViewController.swift in Sources */,
+				8419F67F2318DD3400FD8C90 /* WebViewController.swift in Sources */,
 				84ED1B8F23110FC200615893 /* RateViewController.swift in Sources */,
 				84ED1B91231129DB00615893 /* MapViewController.swift in Sources */,
 			);
