@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "Адрес"; ObjectID = "0cr-JI-Pej"; */
+"0cr-JI-Pej.text" = "L'adresse";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "1Iz-H6-f1X"; */
+"1Iz-H6-f1X.text" = "Prénom";
+
+/* Class = "UILabel"; text = "Key"; ObjectID = "89H-ph-0Zv"; */
+"89H-ph-0Zv.text" = "Clé";
+
+/* Class = "UINavigationItem"; title = "Ice Cream🍦"; ObjectID = "BqH-TQ-Jjd"; */
+"BqH-TQ-Jjd.title" = "Crème glacée🍦";
+
+/* Class = "UINavigationItem"; title = "Популярное мороженое😋"; ObjectID = "HZ4-eb-Ia8"; */
+"HZ4-eb-Ia8.title" = "Crème glacée populaire😋";
+
+/* Class = "UITextField"; placeholder = "Название мороженого"; ObjectID = "IEO-Ds-47S"; */
+"IEO-Ds-47S.placeholder" = "Nom glaceо";
+
+/* Class = "UITabBarItem"; title = "О нас"; ObjectID = "LAb-w4-FAU"; */
+"LAb-w4-FAU.title" = "À propos de nous";
+
+/* Class = "UILabel"; text = "Уже пробовали?"; ObjectID = "Mk9-RZ-a59"; */
+"Mk9-RZ-a59.text" = "Avez-vous déjà essayé?";
+
+/* Class = "UILabel"; text = "Вкусное мороженое?"; ObjectID = "RW7-2P-8OC"; */
+"RW7-2P-8OC.text" = "Une glace savoureuse?";
+
+/* Class = "UITextField"; placeholder = "Ингредиенты мороженого"; ObjectID = "Xyv-IG-4oI"; */
+"Xyv-IG-4oI.placeholder" = "Ingrédients de la crème glacée";
+
+/* Class = "UILabel"; text = "Название"; ObjectID = "YmY-ZV-95P"; */
+"YmY-ZV-95P.text" = "Titre";
+
+/* Class = "UIButton"; normalTitle = "Нет😟"; ObjectID = "aMv-yf-elp"; */
+"aMv-yf-elp.normalTitle" = "Non😟";
+
+/* Class = "UILabel"; text = "Value"; ObjectID = "hLI-nw-85v"; */
+"hLI-nw-85v.text" = "Valeur";
+
+/* Class = "UILabel"; text = "Ингредиенты"; ObjectID = "iGO-S2-EoN"; */
+"iGO-S2-EoN.text" = "Les ingrédients";
+
+/* Class = "UILabel"; text = "Ingredients"; ObjectID = "iqT-qx-FBt"; */
+"iqT-qx-FBt.text" = "Ingrédients";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lC3-27-hyL"; */
+"lC3-27-hyL.normalTitle" = "Bouton";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "lxy-rI-Olb"; */
+"lxy-rI-Olb.text" = "Titre";
+
+/* Class = "UINavigationItem"; title = "О нас 🙂"; ObjectID = "mzn-cF-9SJ"; */
+"mzn-cF-9SJ.title" = "À propos de nous 🙂";
+
+/* Class = "UIButton"; normalTitle = "Да😋"; ObjectID = "s8F-qq-qRQ"; */
+"s8F-qq-qRQ.normalTitle" = "Oui😋";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "shg-2e-sLg"; */
+"shg-2e-sLg.title" = "Article";
+
+/* Class = "UILabel"; text = "header"; ObjectID = "tm1-bx-neL"; */
+"tm1-bx-neL.text" = "entête";
+
+/* Class = "UILabel"; text = "subheader"; ObjectID = "u9U-2K-3Sr"; */
+"u9U-2K-3Sr.text" = "sous en-tête";
+
+/* Class = "UITextField"; placeholder = "Адрес"; ObjectID = "vFN-Ko-pjd"; */
+"vFN-Ko-pjd.placeholder" = "L'adresse";

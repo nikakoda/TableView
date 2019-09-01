@@ -14,6 +14,7 @@
 		8419F67D2318D5CD00FD8C90 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419F67C2318D5CD00FD8C90 /* AboutTableViewController.swift */; };
 		8419F67F2318DD3400FD8C90 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419F67E2318DD3400FD8C90 /* WebViewController.swift */; };
 		8419F6822318EAEC00FD8C90 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED1B9323112A8200615893 /* MapKit.framework */; };
+		8419F6872319734200FD8C90 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8419F6892319734200FD8C90 /* Localizable.strings */; };
 		84A4B0802312FF9500232A51 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B07F2312FF9500232A51 /* CoreDataStack.swift */; };
 		84A4B0832313015100232A51 /* TableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B0812313015100232A51 /* TableView.xcdatamodeld */; };
 		84AA569A230C1D4B00A4357F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA5699230C1D4B00A4357F /* AppDelegate.swift */; };
@@ -35,6 +36,8 @@
 		8419F67C2318D5CD00FD8C90 /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
 		8419F67E2318DD3400FD8C90 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		8419F6802318E66C00FD8C90 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8419F6842319700300FD8C90 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		8419F6882319734200FD8C90 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84A4B07F2312FF9500232A51 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		84A4B0822313015100232A51 /* IceCreamModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IceCreamModel.xcdatamodel; sourceTree = "<group>"; };
 		84AA5696230C1D4B00A4357F /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +78,7 @@
 		84AA568D230C1D4B00A4357F = {
 			isa = PBXGroup;
 			children = (
+				8419F6892319734200FD8C90 /* Localizable.strings */,
 				84AA5698230C1D4B00A4357F /* TableView */,
 				84AA5697230C1D4B00A4357F /* Products */,
 				84ED1B9223112A8200615893 /* Frameworks */,
@@ -166,6 +170,9 @@
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
 						};
 					};
 				};
@@ -177,6 +184,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 84AA568D230C1D4B00A4357F;
 			productRefGroup = 84AA5697230C1D4B00A4357F /* Products */;
@@ -194,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AA56A4230C1D4C00A4357F /* LaunchScreen.storyboard in Resources */,
+				8419F6872319734200FD8C90 /* Localizable.strings in Resources */,
 				841764A02317D32E0041FE72 /* Assets.xcassets in Resources */,
 				84AA569F230C1D4B00A4357F /* Main.storyboard in Resources */,
 			);
@@ -226,10 +235,19 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		8419F6892319734200FD8C90 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8419F6882319734200FD8C90 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		84AA569D230C1D4B00A4357F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84AA569E230C1D4B00A4357F /* Base */,
+				8419F6842319700300FD8C90 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -249,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -310,6 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -365,7 +385,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TableView/TableView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCGT84N7ZJ;
 				INFOPLIST_FILE = TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -382,7 +404,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TableView/TableView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCGT84N7ZJ;
 				INFOPLIST_FILE = TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
